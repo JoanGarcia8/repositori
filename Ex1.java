@@ -10,6 +10,7 @@ class Ex1 {
             System.out.println("Posa un numero");
             numero = kb.nextInt();
     }
+    System.out.println('Hola, soc en Joan Roura Lema')
 }
 }
 
