@@ -27,8 +27,12 @@
 // console.log(nom)
 
 // 11.
-var var1 = null
-var var2 = undefined
-console.log(var1 + var2)
+// var var1 = null
+// var var2 = undefined
+// console.log(var1 + var2)
+
+// 12.
+console.log(String(true))
+console.log(String + true)
 
 
