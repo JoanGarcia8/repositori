@@ -32,7 +32,11 @@
 // console.log(var1 + var2)
 
 // 12.
-console.log(String(true))
-console.log(String + true)
+// console.log(String(true))
+// console.log(String + true)
+
+//13.
+console.log(Boolean('hola'))
+console.log('hola' | false)
 
 
