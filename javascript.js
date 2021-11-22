@@ -1,3 +1,4 @@
-console.log("Joan")
-console.info("Garcia Sanchez")
-console.info("2003")
+console.log(v_1)
+var v_1 = 'Variable VAR/LET' 
+//let v_1 = 'Variable VAR/LET'
+
