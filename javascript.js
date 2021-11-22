@@ -36,7 +36,11 @@
 // console.log(String + true)
 
 //13.
-console.log(Boolean('hola'))
-console.log('hola' | false)
+// console.log(Boolean('hola'))
+// console.log('hola' | false)
+
+//14.
+console.log(Number(true))
+console.log( 5 | false )
 
 
