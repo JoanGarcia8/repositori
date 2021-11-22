@@ -1,7 +1,13 @@
-var v_1 = 'Variable VAR' 
-let v_1 = 'Variable LET' 
-const v_1 = 'Variable CONSTANT' 
-console.log(v_1)
-console.log(v_2)
-console.log(v_3)
+//6. Vaig probar el tofixed pero no sabia on possar-ho ni la manera
+var number = 1.234
+var BigInt = 5.678
+var suma = (number + BigInt)
+var resta = (number - BigInt)
+var divisio = (number / BigInt)
+var multiplicacio = (number*BigInt)
+console.log(suma)
+console.log(resta)
+console.log(divisio)
+console.log(multiplicacio)
+
 
