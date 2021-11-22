@@ -22,8 +22,13 @@
 // console.log(cognom + ' te 6 lletres')
 
 // 10.
-var nom = 'Joan Garcia Sanchez'
-nom = nom.slice(0,6) + nom.slice(7)
-console.log(nom)
+// var nom = 'Joan Garcia Sanchez'
+// nom = nom.slice(0,6) + nom.slice(7)
+// console.log(nom)
+
+// 11.
+var var1 = null
+var var2 = undefined
+console.log(var1 + var2)
 
 
