@@ -1,4 +1,7 @@
+var v_1 = 'Variable VAR' 
+let v_1 = 'Variable LET' 
+const v_1 = 'Variable CONSTANT' 
 console.log(v_1)
-var v_1 = 'Variable VAR/LET' 
-//let v_1 = 'Variable VAR/LET'
+console.log(v_2)
+console.log(v_3)
 
