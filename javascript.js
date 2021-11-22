@@ -11,9 +11,14 @@
 // console.log(multiplicacio)
 
 // 8.
-var numero = 10
-var string = 'Bondia'
-var junt = (numero/string)
-console.log(junt)
+// var numero = 10
+// var string = 'Bondia'
+// var junt = (numero/string)
+// console.log(junt)
+
+// 9.
+// var nom = 'Joan Garcia Sanchez'
+// var cognom = 'Garcia'
+// console.log(cognom + ' te 6 lletres')
 
 
