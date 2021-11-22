@@ -21,4 +21,9 @@
 // var cognom = 'Garcia'
 // console.log(cognom + ' te 6 lletres')
 
+// 10.
+var nom = 'Joan Garcia Sanchez'
+nom = nom.slice(0,6) + nom.slice(7)
+console.log(nom)
+
 
