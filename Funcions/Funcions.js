@@ -11,7 +11,15 @@ fnom();*/
     fnum();*/
 
 // 3.
-function fdata ( fecha = new Date ()){
+/*function fdata ( fecha = new Date ()){
     console.log (fecha)
 }
-fdata();
+fdata();*/
+
+// 4.
+function fhola ( ){
+    var anem = 'com anem'
+}
+console.log(anem)
+fhola();
+
