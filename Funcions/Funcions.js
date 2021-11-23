@@ -17,9 +17,19 @@ fnom();*/
 fdata();*/
 
 // 4.
-function fhola ( ){
+/*function fhola ( ){
     var anem = 'com anem'
 }
 console.log(anem)
-fhola();
+fhola();*/
+
+// 5. 
+function vocal(str) {
+    const count = str.match(/[aeiou]/gi).length;
+    return count;
+}
+
+var palabra = 'holaa';
+const resultat = vocal(palabra);
+console.log(resultat); 
 
