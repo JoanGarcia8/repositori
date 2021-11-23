@@ -5,7 +5,13 @@ console.log(nom)
 fnom();*/
 
 // 2.
-function fnum ( num1 = 20 ){
+/*function fnum ( num1 = 20 ){
     console.log (typeof num1)
     }
-    fnum();
+    fnum();*/
+
+// 3.
+function fdata ( fecha = new Date ()){
+    console.log (fecha)
+}
+fdata();
