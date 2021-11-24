@@ -15,7 +15,7 @@ else{
 */
 
 // 2.
-var x = 15
+/*var x = 15
 var y = 50
 
 if (x >10 && x <= 50){
@@ -24,5 +24,25 @@ console.log('El numero X esta dins el rang')
 
 if (y >10 && y <= 50){
     console.log('El numero Y esta dins el rang')
+}*/
+
+// 3.
+var nota = 8;
+switch (true){
+    case nota <= 4.9:
+        console.log('Suspés')
+        break;
+    case nota >= 5 && nota <= 5.99: 
+        console.log('Suficient')
+        break;
+    case nota >= 6 && nota <= 6.99:
+        console.log('Be')
+        break;
+    case nota >= 7 && nota <= 8.99:
+        console.log('Notable')
+        break;
+    case nota >= 9:
+        console.log('Excelent')
+        break;
 }
 
