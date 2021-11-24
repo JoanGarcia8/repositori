@@ -24,12 +24,21 @@ console.log(anem)
 fhola();*/
 
 // 5. 
-function vocal(str) {
+/*function vocal(str) {
     const count = str.match(/[aeiou]/gi).length;
     return count;
 }
 
 var palabra = 'holaa';
 const resultat = vocal(palabra);
-console.log(resultat); 
+console.log(resultat); */
+
+// 7.
+function suma(){
+    return a,b,c
+    }
+    var a = 10
+    var b = 10
+    var c = 5
+console.log (a+b+c)
 
