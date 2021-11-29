@@ -50,7 +50,7 @@ switch (true){
 // 5.
 
 // 6.
-var a;
+/*var a;
 var b;
 var c;
 	a=parseInt(prompt("Introdueix el primer valor: "));
@@ -73,4 +73,21 @@ var c;
         console.log(c,a,b)
     else
         console.log(c,b,a)
+    }*/
+
+// 7.
+var x;
+var contador = 0;
+    x=parseInt(prompt("Introdueix un valor: "));
+    while(contador <= x){
+console.log(contador)
+
+    if(contador % 2 == 0){
+        console.log(contador + " es parell")
+        }
+        else if(contador % 3 == 0){
+        console.log(contador + " es senar")}
+
+contador++;
     }
+
