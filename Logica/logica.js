@@ -27,7 +27,7 @@ if (y >10 && y <= 50){
 }*/
 
 // 3.
-var nota = 8;
+/*var nota = 8;
 switch (true){
     case nota <= 4.9:
         console.log('Suspés')
@@ -44,5 +44,33 @@ switch (true){
     case nota >= 9:
         console.log('Excelent')
         break;
-}
+}*/
+// 4.
 
+// 5.
+
+// 6.
+var a;
+var b;
+var c;
+	a=parseInt(prompt("Introdueix el primer valor: "));
+	b=parseInt(prompt("Introdueix el segon valor: "));
+	c=parseInt(prompt("Introdueix el tercer valor: "));
+	if ( a>=b && a>=c){
+        if(b>c)
+        console.log(a,b,c)
+    else
+        console.log(a,c,b)
+    }
+    if(b>=a && b>=c){
+        if (a>c)
+        console.log(b,a,c)
+    else
+        console.log(b,c,a)
+    }
+    if(c>=a && c>=b){
+        if(a>b)
+        console.log(c,a,b)
+    else
+        console.log(c,b,a)
+    }
