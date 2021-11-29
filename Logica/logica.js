@@ -76,6 +76,7 @@ var c;
     }*/
 
 // 7.
+/*
 var x;
 var contador = 0;
     x=parseInt(prompt("Introdueix un valor: "));
@@ -89,5 +90,29 @@ console.log(contador)
         console.log(contador + " es senar")}
 
 contador++;
-    }
+    }*/
+
+// 8.
+var numero = 0;
+while (numero < 6){
+        numero++;
+        if (numero == 1){
+        console.log("*");
+        }
+        else if (numero == 2){
+        console.log("**");
+        }
+        else if (numero == 3){
+        console.log("****");
+        }
+        else if (numero == 4){
+        console.log("*****");
+        }
+        else if (numero == 5){
+        console.log("******");
+        }
+
+  }
+
+
 
