@@ -46,7 +46,24 @@ switch (true){
         break;
 }*/
 // 4.
+/*
+var x = 21
+var n = 0
+var sum1 = 1
+var sum2 = 2
+var acumulador = 0
+var contador = 0
 
+while (acumulador <= x){
+    n++
+    contador= sum1 + sum2
+    sum1=0
+    sum2++
+    acumulador =acumulador + contador
+}
+
+console.log('Si x es: ' + x + ', n seria ' + n)
+*/
 // 5.
 
 // 6.
@@ -116,6 +133,7 @@ while (numero < 6){
   }
   */
 // 9.
+/*
 var contador1 = 0;
 var contador2 = 0;
 var contador3 = 0;
@@ -141,3 +159,4 @@ do {
 
 console.log('Multiples de 3 sumats: ' + resultatM3);
 console.log('Multiples de 5 sumats: ' + resultatM5);
+*/
