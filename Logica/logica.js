@@ -65,7 +65,7 @@ while (acumulador <= x){
 console.log('Si x es: ' + x + ', n seria ' + n)
 */
 // 5.
-
+/*
 var string  = "Bon dia 6, com anem 1, 4"
 var numero = string.replace(/[^0-9]/ig, "");
 
@@ -169,3 +169,19 @@ do {
 console.log('Multiples de 3 sumats: ' + resultatM3);
 console.log('Multiples de 5 sumats: ' + resultatM5);
 */
+// 10.
+function arbre(linies) {
+    bucle:
+    for (var i = 0; i <= linies; ++i) {
+        let asterisc = '';
+        for (var j = i; j <= linies; ++j) {
+        }
+        for (var k = 0; k < i * 3 ; ++k) {
+            asterisc += '*';
+        }
+        console.log(asterisc)
+        continue bucle;
+    }
+}
+
+arbre(5);
