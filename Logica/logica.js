@@ -66,6 +66,15 @@ console.log('Si x es: ' + x + ', n seria ' + n)
 */
 // 5.
 
+var string  = "Bon dia 6, com anem 1, 4"
+var numero = string.replace(/[^0-9]/ig, "");
+
+var a = 0;
+
+for (var i = 0; i < numero.length; i++){
+    a += Number(numero.charAt(i));
+}
+console.log(a);
 // 6.
 /*var a;
 var b;
