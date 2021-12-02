@@ -93,6 +93,7 @@ contador++;
     }*/
 
 // 8.
+/*
 var numero = 0;
 while (numero < 6){
         numero++;
@@ -113,6 +114,30 @@ while (numero < 6){
         }
 
   }
+  */
+// 9.
+var contador1 = 0;
+var contador2 = 0;
+var contador3 = 0;
+var resultatM3 = 0;
+var resultatM5 = 0;
 
+do {
+    if ((contador1 % 3 == 0) && (contador2 % 5 == 0 )){
+        resultatM3 = contador1 + resultatM3;
+        resultatM5 = contador2 + resultatM5;
+    }
+    else {
+        if (contador1 % 3 == 0) {
+            resultatM3 = contador1 + resultatM3;
+        }
+        else if (contador2 % 5 == 0 ) {
+            resultatM5 = contador2 + resultatM5;
+        }
+    }
+    contador1++;
+    contador2++;
+    } while (contador1 <= 1000);
 
-
+console.log('Multiples de 3 sumats: ' + resultatM3);
+console.log('Multiples de 5 sumats: ' + resultatM5);
